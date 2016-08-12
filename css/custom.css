@@ -1,0 +1,56 @@
+body {
+    color: white;
+    background-image: url("/Users/tarunkhanna/Documents/FreeCodeCamp/NerdfighterQuoteGenerator/images/nerdfighter-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 0%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #154057;
+}
+
+
+.btn {
+    font-size: 3rem;
+    background-color: #154057;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #154057;
+}
+
+.card {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+
+    padding: 1rem;
+    border-style: double;
+    border-color: white;
+    border-width: 3rem;
+    background-color: rgba(64, 190, 255, .85);
+}
+
+.container {
+    background-color: #3AADEA;
+}
+
+blockquote {
+    font-size: 3rem;
+}
+
+.author {
+    font-family: cursive;
+
+    display: block;
+    text-align: right;
+}
+
+.footer {
+    vertical-align: bottom;
+}
