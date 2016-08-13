@@ -30,8 +30,17 @@ function replaceQuote() {
     //modify the DOM to display the random quote and appropriate author
     document.getElementsByTagName("blockquote")[0].innerHTML = "&quot;" + arr[i] + "&quot;";
     document.getElementsByTagName("span")[0].innerHTML = "- " + author;
+
+    //update the twitter link
+    document.getElementsByTagName('a')[0].href = "https://twitter.com/intent/tweet?text=" + "\""+ getQuote(arr[i]) + "\"" +"%0D- " + author + "%23tknerdfighterquotegenerator";
 }
 
+function getQuote(q) {
+  if (q.length > 98) {
+    q = q.slice(0, 94) + "...";
+  }
+  return q;
+}
 //add an event listener to the New Quote button to replace
 //the quote being displayed
 newQuoteButton = document.getElementById("newQuoteButton");

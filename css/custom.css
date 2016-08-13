@@ -3,7 +3,7 @@ body {
     background-image: url("/Users/tarunkhanna/Documents/FreeCodeCamp/NerdfighterQuoteGenerator/images/nerdfighter-logo.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-position: 50% 0%;
+    background-position: 50% 40%;
 
 }
 
@@ -11,18 +11,23 @@ h1 {
     text-align: center;
     font-size: 5rem;
     font-weight: bold;
-    color: #154057;
+    color: white;
 }
 
 
 .btn {
     font-size: 3rem;
     background-color: #154057;
+    color: #3AADEA;
 }
 
 .btn:hover {
     background-color: white;
-    color: #154057;
+    color: #3AADEA;
+}
+
+.btn:focus {
+    color: #3AADEA;
 }
 
 .card {
@@ -53,4 +58,10 @@ blockquote {
 
 .footer {
     vertical-align: bottom;
+}
+
+div.buttons {
+    display:flex;
+    width: 30%;
+    margin: 0 auto;
 }
